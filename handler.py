@@ -2,6 +2,7 @@ import pickle
 import pandas as pd
 from flask             import Flask, request, Response
 from rossmann.Rossmann import Rossmann
+import os
 
 # loading model
 #model = pickle.load( open( 'C:\\Users\\Samir\\Documents\\repos\\DataScience-Em-Producao\\api\\model\\model_rossman.pkl', 'rb') )
